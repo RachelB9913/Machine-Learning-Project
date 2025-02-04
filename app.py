@@ -184,7 +184,7 @@ demo = gr.Interface(
             ],
     outputs=[gr.Text(label="The Prediction")],
     title="LEETCODE PREDICTOR",
-    description="please go to the leetcode website (https://leetcode.com/) choose a question and copy the question's detiles to the relevant spaces, then choose what you whould like to predict and submit. the prediction result will appear on the right side of the screen 😉"
+    description="please go to the leetcode website (https://leetcode.com/problemset//) choose a question and copy the question's detiles to the relevant spaces, then choose what you whould like to predict and submit. the prediction result will appear on the right side of the screen 😉"
 )
 
 demo.launch()
